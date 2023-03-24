@@ -1,0 +1,39 @@
+.nav_container {
+    max-width: 100vw;
+    margin-left: 8vw;
+    position:fixed;
+    z-index: 1000;
+}
+
+.nav {
+    width: 80vw;
+    display: flex;
+    background-color: rgba(22, 199, 119, 0.7);
+    padding: 1%;
+    padding-left: 5%;
+    box-shadow: 3px 3px 3px rgb(128, 15, 176);
+    border-radius: 3px 19px 3px 19px;
+}
+
+.nav > .link_nav {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 20%;
+    font-weight: bold;
+    transition: all 1s ease-out;
+}
+
+.nav>.link_nav:first-child {
+    margin-left: 5vw;
+}
+
+.link_nav:hover {
+    color: crimson;
+    transform: scale(1.02);
+} 
+
+@media only screen and (max-width : 533px) {
+    .nav>.link_nav {
+            font-size: 10px;
+        }
+}

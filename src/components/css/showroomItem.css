@@ -1,0 +1,31 @@
+.showroom_item_container {
+    border: 1px rgb(144, 24, 24) solid;
+    padding: 5%;
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-top: 4%;
+    box-shadow: 1px 1px 6px rgb(127, 19, 199);
+    transition: all 1s ease-out;
+}
+
+.showroom_item_container:hover {
+    transform: scale(1.02);
+}
+
+
+.img_showroom_item {
+    border-radius: 12px;
+    width: 20vw;
+    height: 30vh;
+}
+
+.name_showroom_item {
+    width: 20vw;
+    font-size: calc();
+}
+
+@media only screen and (max-width : 533px) {
+    .name_showroom_item {
+        font-size: 10px;
+    }
+}

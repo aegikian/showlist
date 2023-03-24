@@ -1,0 +1,15 @@
+.showroom_list_item_container {
+    display: grid;
+    grid-template-columns: repeat(3, 26vw); 
+    max-width: 100%;
+    margin-bottom: 10vh;
+    padding-bottom: 5vh;
+}
+
+.showroom_list_all_container {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    width: 80vw;
+    margin-left: 10vw;
+    box-shadow: .5px 5px 10px rgb(143, 22, 22);
+}

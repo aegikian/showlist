@@ -1,0 +1,34 @@
+.showroom_page_all_container {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    width: 80%;
+    margin-left: 10vw;
+    box-shadow: 1px 2px 3px rgb(143, 22, 22);
+}
+
+.img_showroom_page {
+    width: 80vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.name_showroom_page {
+    font-size: 50px;
+    text-shadow: .5px 1px .7px rgb(184, 0, 34);
+}
+
+.showroom_page_description_container {
+    width: 60vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: flex-start;
+    margin-bottom: 30vh;
+}
+
+.map_showroom_page {
+    border: 1px rgb(171, 31, 171) solid;
+    box-shadow: 1px 1px 8px rgb(168, 9, 158);
+    margin-bottom: 5vh;
+}
